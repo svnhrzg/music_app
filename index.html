@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="music-app-wrapper">
+        <!-- <div id="now-playing">
+          <span id="toggle-btn" class="material-icons">chevron_right</span>
+        </div> -->
+        <audio id="music-player" preload="auto">
+          Browser does not support file format
+        </audio>
+        <div class="current-image"></div>
+        <div class="current-info">
+          <h2 id="current-title"></h2>
+          <h3 id="current-artist"></h3>
+        </div>
+        <div class="progress-wrapper">
+          <input
+            id="progress-input"
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            step="1"
+          />
+          <div class="time-wrapper">
+            <span id="elapsed-time">0:00</span>
+            <span id="duration"></span>
+          </div>
+        </div>
+        <nav id="player-controls">
+          <span id="shuffle-btn" class="material-icons">shuffle</span>
+          <span id="previous-btn" class="material-icons">skip_previous</span>
+          <span id="play-btn" class="material-icons">play_arrow</span>
+          <span id="next-btn" class="material-icons">skip_next</span>
+          <span id="repeat-btn" class="material-icons" title="Normal Mode"
+            >repeat</span
+          >
+        </nav>
+        <div id="player-volume">
+          <span id="volume-icon" class="material-icons">volume_down</span>
+          <input
+            id="volume"
+            type="range"
+            min="0"
+            max="100"
+            value="50"
+            step="1"
+          />
+          <span id="playlist-btn" class="material-icons">queue_music</span>
+        </div>
+        <!-- PLAYLIST -->
+        <div class="playlist hidden">
+          <span id="close-btn" class="material-icons"> close </span>
+          <ul class="playlist-wrapper"></ul>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

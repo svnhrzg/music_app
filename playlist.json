@@ -1,0 +1,51 @@
+[
+  {
+    "artist": "The Clash",
+    "title": "London Calling",
+    "src": "./music/clash_london-calling.m4a",
+    "album": "London Calling",
+    "image": "./img/clash_london-calling.jpg"
+  },
+  {
+    "artist": "José González",
+    "title": "How Low",
+    "src": "./music/gonzales_how-low.m4a",
+    "album": "In Our Nature",
+    "image": "./img/gonzales_in-our-nature.jpg"
+  },
+  {
+    "artist": "Vivid",
+    "title": "Blackbird",
+    "src": "./music/vivid/01-blackbird.mp3",
+    "album": "Blackbird",
+    "image": "./img/vivid/blackbird.jpg"
+  },
+  {
+    "artist": "Iggy & the Stooges",
+    "title": "1969",
+    "src": "./music/stooges_1969.mp3",
+    "album": "Stooges",
+    "image": "./img/stooges_stooges.jpeg"
+  },
+  {
+    "artist": "Hypnotic Brass Ensemble",
+    "title": "War",
+    "src": "./music/brass_war.mp3",
+    "album": "same",
+    "image": "./img/hypnotic.jpeg"
+  },
+  {
+    "artist": "Elbow",
+    "title": "Lippy Kids",
+    "src": "./music/elbow_lippy-kids.m4a",
+    "album": "Build a Rocket Boys",
+    "image": "./img/elbow_build-a-rocket-boys.jpg"
+  },
+  {
+    "artist": "The Roots",
+    "title": "Now or Never",
+    "src": "./music/roots_now-or-never.m4a",
+    "album": "How I Got Over",
+    "image": "./img/roots_got-over.jpeg"
+  }
+]
