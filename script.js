@@ -107,7 +107,7 @@ function updatePlayer() {
   let song = playlist[currentSong];
   artist.innerText = `${song.artist} · ${song.album}`;
   title.innerText = song.title;
-  albumCover.style = `background-image: url(${song.image})`;
+  albumCover.style = `background-image: url(${song.image}); filter: grayscale();`;
   audioPlayer.src = song.src;
   // better way?
   audioPlayer.addEventListener('loadeddata', () => {
